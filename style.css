@@ -1,0 +1,167 @@
+/* Styling for whole page */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1vw;
+  font-family: sans-serif;
+  background: #000;
+}
+
+/* styling for top navabr */
+.navbar {
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link {
+  font-size: 1.8em;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #ffff;
+}
+.link:hover {
+  text-decoration: underline;
+}
+/* styling for this hero container */
+.main-container {
+  padding: 8em 4em;
+}
+
+.two-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.image-col {
+  width: 50%;
+  margin-right: 4em;
+}
+.hero-img {
+  width: 100%;
+}
+.hero-content {
+  width: 50%;
+}
+/* basic component for text and heading */
+.para-40 {
+  font-size: 2.77em;
+  font-weight: 500;
+  color: #ffff;
+}
+
+.title {
+  font-size: 3.47em;
+  color: #ffff;
+  margin-bottom: 2em;
+  font-weight: 800;
+}
+
+.primary-btn {
+  padding: 0.5em 1em;
+  font-size: 1.73em;
+  background: #ffff;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+.m-btm-20 {
+  margin-bottom: 0.83em;
+}
+.m-btm-10 {
+  margin-bottom: 0.38em;
+}
+
+.title-50 {
+  font-size: 3.47em;
+  color: #ffff;
+  text-align: center;
+  font-weight: 700;
+}
+
+.para-25 {
+  font-size: 1.73em;
+  color: #ffff;
+  font-weight: 500;
+}
+.para-20 {
+  font-size: 1.38em;
+  color: #ffff;
+  font-weight: 400;
+}
+
+.exp-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.company-logo {
+  width: 33.77em;
+}
+
+.exp-wrp {
+  max-width: 33.77em;
+  margin: 0em 2em;
+}
+
+.comp-img-wrp {
+  margin-bottom: 1em;
+}
+.top-wrp {
+  margin-bottom: 1em;
+}
+.proj-item{
+    width: 40em;
+    margin-right: 4em;
+}
+.proj-img {
+  width: 40em;
+}
+.m-r-10{
+    margin-right: 0.83em;
+}
+.proj-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: auto;
+}
+
+/* contact form styling */
+.contact-form{
+    margin:auto;
+    width: 100%;
+    max-width: 55.55em;
+}
+.inp-wrp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.form-label{
+    font-size: 1.8em;
+    color: #ffff;
+    font-weight: 400;
+}
+.form-inp{
+    padding: 0.4em 1em;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.8em;
+    color: #000;
+    font-weight: 400;
+}
+textarea{
+    resize: none;
+}
