@@ -5,138 +5,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Portfolio</title>
 </head>
 
 <body>
-    <div class="navbar">
-        <a href="" class="link">
-            Home
-        </a><a href="" class="link">
-            My Projects
-        </a><a href="" class="link">
-            Contact me
-        </a>
+    <div class="navbar" wrapper="navbar">
+        <div class="logo">
+            <img src="./images/logo.svg" alt="logo" height="100%" width="100%">
+        </div>
+        <div class="menu-item">
+            <a href="#home" class="link">
+                Home
+            </a>
+            <a href="#projects" class="link">
+                Projects
+            </a>
+            <a href="#contact" class="link">
+                Contact
+            </a>
+        </div>
     </div>
-    <div class="main-container">
+    <div class="main-container" id="home">
         <div class="two-col">
-            <div class="image-col">
-                <img class="hero-img" src="./wp4410274-tanjiro-kamado-wallpapers.jpg" alt="myimage">
-            </div>
             <div class="hero-content">
-                <h1 class="title">Hiii.....this is Himanshu</h1>
-                <p class="para-40 m-btm-20">
-                    A self taught web developer,
-                    Hustling every day to learn new technolgies, which is going to help other bussiness.
+                <h1 class="title">Hi, I am Himanshu A Web Developer based in City Rewa.</h1>
+                <p class="para-24 m-btm-64">
+                    I help businesses and companies reach 
+                    their goals by developing user-centric website's.
                 </p>
-                <button type="button" class="primary-btn">Contact me.</button>
+                <a class="primary-btn" href="mailto:test@mail.com">
+                    <img class="mail-icon" src="./images/mail.svg" alt="mail-icon">
+                    Hi Himanshu.
+                </a>
+            </div>
+            <div class="image-col">
+                <img class="hero-img" src="./images/dp.jpg" alt="myimage">
             </div>
         </div>
     </div>
-    <div class="main-container">
-        <h2 class="title-50 m-btm-20">
-            Experience
-        </h2>
-        <div class="exp-container">
-            <div class="exp-wrp">
-                <div class="comp-img-wrp">
-                    <img class="company-logo" src="./wp4410274-tanjiro-kamado-wallpapers.jpg" alt="company-logo">
-                </div>
-                <div class="top-wrp">
-                    <p class="para-25 m-btm-10">
-                        Software Engineer
-                    </p>
-                    <p class="para-20">
-                        At SearchHomesIndia Pvt Ltd.
-                    </p>
-                    <p class="para-20">
-                        25/01/2021 - 01/07./2021
-                    </p>
-                </div>
-                <p class="para-20">
-                    Worked as a backend engineer by using Python3, django, PostgreSQL, Completed company website from
-                    end to end.
-                </p>
+    <div class="main-container" id="projects">
+        <div class="top-head">
+            <img class="down-arr" src="./images/down-arr.svg" alt="down-arrow">
+            <p class="para-16">
+                Featured Work
+            </p>
+        </div>
+        <div class="two-col">
+            <div class="feature-wrapper">
+                <img class="feature-img" src="./images/unsplash_g-pKprPg5yw.png" alt="feature-work">
+                <img class="feature-img" src="./images/unsplash_mxPiMiz7KCo.png" alt="feature-work">
             </div>
-            <div class="exp-wrp">
-                <div class="comp-img-wrp">
-                    <img class="company-logo" src="./wp4410274-tanjiro-kamado-wallpapers.jpg" alt="company-logo">
-                </div>
-                <div class="top-wrp">
-                    <p class="para-25 m-btm-10">
-                        Software Engineer
-                    </p>
-                    <p class="para-20">
-                        At SearchHomesIndia Pvt Ltd.
-                    </p>
-                    <p class="para-20">
-                        25/01/2021 - 01/07./2021
-                    </p>
-                </div>
-                <p class="para-20">
-                    Worked as a backend engineer by using Python3, django, PostgreSQL, Completed company website from
-                    end to end.
-                </p>
+            <div class="feature-wrapper">
+                <img class="feature-img" src="./images/unsplash_pqzRfBhd9r0.png" alt="feature-work">
+                <img class="feature-img" src="./images/unsplash_x-HpilsdKEk.png" alt="feature-work">
             </div>
         </div>
     </div>
-    <div class="main-container">
-        <h2 class="title-50 m-btm-20">
-            Projects
-        </h2>
-        <div class="proj-wrapper">
-            <div class="proj-item">
-                <div class="comp-img-wrp">
-                    <img class="proj-img" src="./wp4410274-tanjiro-kamado-wallpapers.jpg" alt="project-image">
-                </div>
-                <div class="top-wrp">
-                    <p class="para-25 m-btm-10">
-                        Project-1
-                    </p>
-                    <p class="para-20 m-btm-10">
-                        Project info Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut velit, et iste delectus dignissimos provident? Eveniet earum facilis, quasi optio in perferendis saepe ut veritatis nihil, eos, nostrum exercitationem nemo!
-                        Tempora a dolorem facilis ipsum dolor doloremque rem magni dolorum nobis laudantium. Excepturi sed impedit minima, eius dolorum, porro quia illum dicta autem officia ratione id quod. Eos, modi quam?
-                    </p>
-                    <a class="link m-r-10" href="#">repo link</a>
-                    <a class="link" href="#">live link</a>    
-                </div>
-            </div>
-            <div class="proj-item">
-                <div class="comp-img-wrp">
-                    <img class="proj-img" src="./wp4410274-tanjiro-kamado-wallpapers.jpg" alt="project-image">
-                </div>
-                <div class="top-wrp">
-                    <p class="para-25 m-btm-10">
-                        Project-1
-                    </p>
-                    <p class="para-20 m-btm-10">
-                        Project info Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut velit, et iste delectus dignissimos provident? Eveniet earum facilis, quasi optio in perferendis saepe ut veritatis nihil, eos, nostrum exercitationem nemo!
-                        Tempora a dolorem facilis ipsum dolor doloremque rem magni dolorum nobis laudantium. Excepturi sed impedit minima, eius dolorum, porro quia illum dicta autem officia ratione id quod. Eos, modi quam?
-                    </p>
-                    <a class="link m-r-10" href="#">repo link</a>
-                    <a class="link" href="#">live link</a>    
-                </div>
-            </div>
-            <div class="proj-item">
-                <div class="comp-img-wrp">
-                    <img class="proj-img" src="./wp4410274-tanjiro-kamado-wallpapers.jpg" alt="project-image">
-                </div>
-                <div class="top-wrp">
-                    <p class="para-25 m-btm-10">
-                        Project-1
-                    </p>
-                    <p class="para-20 m-btm-10">
-                        Project info Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut velit, et iste delectus dignissimos provident? Eveniet earum facilis, quasi optio in perferendis saepe ut veritatis nihil, eos, nostrum exercitationem nemo!
-                        Tempora a dolorem facilis ipsum dolor doloremque rem magni dolorum nobis laudantium. Excepturi sed impedit minima, eius dolorum, porro quia illum dicta autem officia ratione id quod. Eos, modi quam?
-                    </p>
-                    <a class="link m-r-10" href="#">repo link</a>
-                    <a class="link" href="#">live link</a>    
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="main-container">
+    <div class="main-container" id="contact">
         <h2 class="title-50 m-btm-20">
             Contact Me
         </h2>
@@ -157,5 +86,6 @@
         </form>
     </div>
 </body>
+<script src="./function.js"></script>
 
 </html>
